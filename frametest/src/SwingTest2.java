@@ -10,7 +10,7 @@ public class SwingTest2 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JButton button = new JButton("TewtSwing");
-		frame.getContentPane().add(button,BorderLayout.WEST);
+		frame.getContentPane().add(button,BorderLayout.SOUTH);
 		frame.setVisible(true);
 	}
 
